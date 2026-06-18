@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 11 - Multimedia en HTML5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .media-box {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            background: #fcfcfc;
+        }
+        video, audio {
+            display: block;
+            margin-top: 10px;
+            max-width: 100%;
+        }
+        .footer-datos {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Práctica 11: Multimedia</h1>
+    <p>Integración de video y audio utilizando las etiquetas básicas de HTML5.</p>
+    
+    <hr>
+
+    <div class="media-box">
+        <h2>1. Video con Controles Seleccionado</h2>
+        <p>Este video cuenta con una imagen de presentación (poster) y controles de reproducción.</p>
+        <video src="video.mp4" poster="presentacion.jpg" width="640" height="480" controls>
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+
+    <div class="media-box">
+        <h2>2. Audio Seleccionado</h2>
+        <p>Audio corto con controles de reproducción activados.</p>
+        <audio src="audio.mp3" controls>
+            Tu navegador no soporta la etiqueta de audio.
+        </audio>
+    </div>
+
+    <div class="media-box">
+        <h2>3. Video con Subtítulos (&lt;track&gt;)</h2>
+        <p>Uso de la etiqueta <code>&lt;track&gt;</code> para añadir subtítulos en español de forma alternativa.</p>
+        <video src="video.mp4" width="640" height="480" controls>
+            <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español" default>
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+
+    <div class="media-box">
+        <h2>4. Video Comercial - Proyecto Transversal</h2>
+        <p>Video promocional configurado para reproducirse automáticamente, en silencio y en bucle.</p>
+        <video src="video.mp4" width="640" height="480" autoplay muted loop controls>
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+    </div>
+
+    <div class="footer-datos">
+        <p><strong>Nombre del Alumno:</strong> [Coloca aquí tu nombre completo]</p>
+        <p><strong>Fecha de Entrega:</strong> [Coloca aquí la fecha]</p>
+    </div>
+
+</div>
+
+</body>
+</html>
