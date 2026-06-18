@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Promoción de Hábitos Saludables</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#1b1b1b;
+    color:white;
+}
+
+header{
+    background:#0d47a1;
+    text-align:center;
+    padding:20px;
+}
+
+h1{
+    font-family:"Ancient Black WF", serif;
+    color:#00ffff;
+}
+
+nav{
+    background:#222;
+}
+
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+nav > ul > li{
+    display:inline-block;
+    position:relative;
+}
+
+nav a{
+    display:block;
+    padding:15px 20px;
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover{
+    background:#00bcd4;
+    color:black;
+}
+
+nav ul li ul{
+    display:none;
+    position:absolute;
+    background:#333;
+    min-width:200px;
+}
+
+nav ul li:hover ul{
+    display:block;
+}
+
+nav ul li ul li{
+    display:block;
+}
+
+section{
+    padding:20px;
+}
+
+.caja{
+    background:#2e2e2e;
+    padding:20px;
+    margin:15px;
+    border-radius:10px;
+}
+
+footer{
+    background:#0d47a1;
+    text-align:center;
+    padding:15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>PROMOCIÓN DE HÁBITOS SALUDABLES</h1>
+<p>Aprende a cuidar tu salud y reducir el consumo de bebidas azucaradas.</p>
+</header>
+
+<nav>
+<ul>
+
+<li><a href="#inicio">Inicio</a></li>
+
+<li><a href="#">Hábitos Saludables</a>
+    <ul>
+        <li><a href="#alimentacion">Alimentación Balanceada</a></li>
+        <li><a href="#ejercicio">Actividad Física</a></li>
+        <li><a href="#descanso">Descanso Adecuado</a></li>
+    </ul>
+</li>
+
+<li><a href="#">Bebidas Azucaradas</a>
+    <ul>
+        <li><a href="#riesgos">Riesgos</a></li>
+        <li><a href="#alternativas">Alternativas Saludables</a></li>
+    </ul>
+</li>
+
+<li><a href="#contacto">Contacto</a></li>
+
+</ul>
+</nav>
+
+<section id="inicio" class="caja">
+<h2>¿Por qué es importante cuidar nuestra salud?</h2>
+<p>
+Mantener hábitos saludables ayuda a prevenir enfermedades,
+mejorar el rendimiento escolar y aumentar la energía diaria.
+</p>
+</section>
+
+<section id="alimentacion" class="caja">
+<h2>Alimentación Balanceada</h2>
+<p>
+Consumir frutas, verduras, cereales integrales y proteínas ayuda
+a mantener una buena salud y fortalecer el organismo.
+</p>
+</section>
+
+<section id="ejercicio" class="caja">
+<h2>Actividad Física</h2>
+<p>
+Realizar al menos 30 minutos de ejercicio al día mejora la salud
+cardiovascular y ayuda a controlar el peso.
+</p>
+</section>
+
+<section id="descanso" class="caja">
+<h2>Descanso Adecuado</h2>
+<p>
+Dormir entre 8 y 10 horas favorece el crecimiento, la concentración
+y el bienestar físico y mental.
+</p>
+</section>
+
+<section id="riesgos" class="caja">
+<h2>Riesgos del Consumo de Bebidas Azucaradas</h2>
+<p>
+El consumo frecuente de refrescos y bebidas con alto contenido de
+azúcar puede provocar obesidad, diabetes tipo 2, caries dentales
+y otros problemas de salud.
+</p>
+</section>
+
+<section id="alternativas" class="caja">
+<h2>Alternativas Saludables</h2>
+<p>
+Se recomienda consumir agua natural, agua de frutas sin azúcar,
+leche baja en grasa o infusiones naturales.
+</p>
+</section>
+
+<section id="contacto" class="caja">
+<h2>Contacto</h2>
+<p>
+Correo: salud@escuela.com
+</p>
+</section>
+
+<footer>
+Nombre del alumno: Alexander Sanchez Leon <br>
+Fecha de entrega: 04/06/2026 </footer>
+
+</body>
+</html>
